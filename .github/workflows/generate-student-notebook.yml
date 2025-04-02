@@ -82,6 +82,8 @@ jobs:
         env:
           TOKEN: ${{ secrets.FG_PAT }}
         run: |
+          echo "Testing token authentication..."
+          git ls-remote https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git checkout -b assignment
