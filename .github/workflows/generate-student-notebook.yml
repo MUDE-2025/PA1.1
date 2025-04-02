@@ -56,4 +56,4 @@ jobs:
           git merge origin/main
           git add .
           git commit -m "Generate student version of notebooks"
-          git push origin solution --force
+          git push origin solution
