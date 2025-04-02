@@ -51,8 +51,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git checkout -b solution
-          default_branch=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          git merge origin/$default_branch
+          git merge origin/main
           git add .
           git commit -m "Generate student version of notebooks"
           git push origin solution --force
