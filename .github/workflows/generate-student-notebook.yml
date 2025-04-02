@@ -74,15 +74,15 @@ jobs:
                   if file.endswith('.ipynb'):
                       notebook_file = os.path.join(root, file)
                       with open(notebook_file) as f:
-                      notebook = nbformat.read(f, as_version=4)
+                          notebook = nbformat.read(f, as_version=4)
 
                       # Keep only cells tagged with 'assignment'
                       notebook.cells = [cell for cell in notebook.cells if 'assignment' in cell.metadata.get('tags', [])]
 
                       # Save the modified notebook
                       with open(notebook_file, 'w') as f:
-                      nbformat.write(notebook, f)
-            "
+                          nbformat.write(notebook, f)
+          "
 
       - name: Commit and push 'assignment' version
         run: |
