@@ -79,6 +79,8 @@ jobs:
           git rm .github/workflows/generate-student-notebook.yml
 
       - name: Commit and push changes assignment version
+        env:
+          TOKEN: ${{ secrets.FG_PAT }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -116,6 +118,8 @@ jobs:
           git rm .github/workflows/generate-student-notebook.yml
 
       - name: Commit and push solution version
+        env:
+          TOKEN: ${{ secrets.FG_PAT }}
         run: |
           git checkout -b solution
           git merge origin/main
