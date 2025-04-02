@@ -47,6 +47,9 @@ jobs:
                       with open(notebook_file, 'w') as f:
                           nbformat.write(notebook, f)
           "
+      - name: Remove this workflow file from the repo
+        run: |
+          git rm .github/workflows/generate-student-notebook.yml
 
       - name: Commit and push changes
         run: |
@@ -57,3 +60,5 @@ jobs:
           git add .
           git commit -m "Generate student version of notebooks"
           git push origin solution --force
+
+      
