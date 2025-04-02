@@ -50,7 +50,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "MUDE-CEG@tudelft.nl"
+          git config --local user.email "action@github.com"
           git config --local user.name "MUDE-bot"
           git checkout -b solution
           git merge origin/main
