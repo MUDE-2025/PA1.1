@@ -1,4 +1,4 @@
-name: Generate Student Notebook
+name: Generate assignment and solution versions
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-notebook:
-    name: Generate Student Version of Notebooks
+    name: Generate assignment and solution versions
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -47,19 +47,20 @@ jobs:
                       with open(notebook_file, 'w') as f:
                           nbformat.write(notebook, f)
           "
+
       - name: Remove this workflow file from the repo
         run: |
           git rm .github/workflows/generate-student-notebook.yml
 
-      - name: Commit and push changes
+      - name: Commit and push changes assignment version
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout -b solution
+          git checkout -b assignment
           git merge origin/main
           git add .
-          git commit -m "Generate student version of notebooks"
-          git push origin solution --force
+          git commit -m "Generate assignment version of notebooks"
+          git push origin assignment --force
 
       - name: Restore main branch and process 'assignment' cells
         run: |
@@ -76,18 +77,22 @@ jobs:
                       with open(notebook_file) as f:
                           notebook = nbformat.read(f, as_version=4)
 
-                      # Keep only cells tagged with 'assignment'
-                      notebook.cells = [cell for cell in notebook.cells if 'assignment' in cell.metadata.get('tags', [])]
+                      # Remove cells tagged with 'assignment'
+                      notebook.cells = [cell for cell in notebook.cells if 'assignment' not in cell.metadata.get('tags', [])]
 
                       # Save the modified notebook
                       with open(notebook_file, 'w') as f:
                           nbformat.write(notebook, f)
           "
 
-      - name: Commit and push 'assignment' version
+      - name: Remove this workflow file from the repo
         run: |
-          git checkout -b assignment
+          git rm .github/workflows/generate-student-notebook.yml
+
+      - name: Commit and push solution version
+        run: |
+          git checkout -b solution
           git merge origin/main
           git add .
-          git commit -m "Generate assignment version of notebooks"
-          git push origin assignment --force
+          git commit -m "Generate solution version of notebooks"
+          git push origin solution --force
