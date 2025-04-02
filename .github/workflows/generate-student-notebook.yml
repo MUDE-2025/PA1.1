@@ -9,6 +9,9 @@ jobs:
   generate-notebook:
     name: Generate Student Version of Notebooks
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      workflows: write
 
     steps:
       - name: Checkout code
