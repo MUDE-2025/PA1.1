@@ -51,7 +51,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "MUDE-bot"
+          git config --local user.name "GitHub Action"
           git checkout -b solution
           git merge origin/main
           git add .
