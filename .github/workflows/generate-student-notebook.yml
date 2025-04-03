@@ -1,12 +1,13 @@
 name: Generate assignment and solution versions
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   generate-notebook:
     name: Generate assignment and solution versions
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: write
