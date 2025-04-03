@@ -79,35 +79,36 @@ jobs:
 
       - name: Remove solution sections from markdown files
         run: |
-          python -c "
+          python -c '
           import os
 
           # Walk through all files in the repository
-            for root, _, files in os.walk('.'):
+          for root, _, files in os.walk("."):
               for file in files:
-                if file.endswith('.md'):
-                  markdown_file = os.path.join(root, file)
-                  with open(markdown_file, 'r') as f:
-                    lines = f.readlines()
+                  if file.endswith(".md"):
+                      markdown_file = os.path.join(root, file)
+                      with open(markdown_file, "r") as f:
+                          lines = f.readlines()
 
-                  # Remove lines between '% solution_start' and '% solution_end'
-                  in_solution_block = False
-                  filtered_lines = []
-                  for line in lines:
-                    if '% solution_start' in line:
-                      in_solution_block = True
-                    elif '% solution_end' in line:
+                      # Remove lines between "% solution_start" and "% solution_end"
                       in_solution_block = False
-                    elif not in_solution_block:
-                      filtered_lines.append(line)
+                      filtered_lines = []
+                      for line in lines:
+                          if "% solution_start" in line:
+                              in_solution_block = True
+                          elif "% solution_end" in line:
+                              in_solution_block = False
+                          elif not in_solution_block:
+                              filtered_lines.append(line)
 
-                  # Raise an error if a solution block was not properly closed
-                  if in_solution_block:
-                    raise ValueError("Unclosed '% solution_start' detected in file: " + markdown_file)
+                      # Raise an error if a solution block was not properly closed
+                      if in_solution_block:
+                          raise ValueError("Unclosed '% solution_start' detected in file: " + markdown_file)
 
-                  # Save the modified markdown file
-                  with open(markdown_file, 'w') as f:
-                    f.writelines(filtered_lines)
+                      # Save the modified markdown file
+                      with open(markdown_file, "w") as f:
+                          f.writelines(filtered_lines)
+          '
 
       - name: Commit and push changes assignment version
         env:
@@ -174,24 +175,24 @@ jobs:
 
       - name: Remove commented lines from markdown files
         run: |
-          python -c "
+          python -c '
           import os
 
           # Walk through all files in the repository
-          for root, _, files in os.walk('.'):
+          for root, _, files in os.walk("."):
             for file in files:
-              if file.endswith('.md'):
+              if file.endswith(".md"):
                 markdown_file = os.path.join(root, file)
-                with open(markdown_file, 'r') as f:
+                with open(markdown_file, "r") as f:
                   lines = f.readlines()
 
                 # Remove lines that start with a comment symbol
-                filtered_lines = [line for line in lines if not line.strip().startswith('% solution')]
+                filtered_lines = [line for line in lines if not line.strip().startswith("% solution")]
 
                 # Save the modified markdown file
-                with open(markdown_file, 'w') as f:
+                with open(markdown_file, "w") as f:
                   f.writelines(filtered_lines)
-          "
+          '
 
       - name: Commit and push solution version
         env:
