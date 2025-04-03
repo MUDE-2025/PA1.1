@@ -76,10 +76,6 @@ jobs:
                   nbformat.write(notebook, f)
           "
 
-      - name: Remove this workflow file from the repo
-        run: |
-          git rm .github/workflows/generate-student-notebook.yml
-
       - name: Commit and push changes assignment version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
@@ -93,6 +89,10 @@ jobs:
           git add .
           git commit -m "Generate assignment version of notebooks"
           git push origin assignment --force
+          git rm .github/workflows/generate-student-notebook.yml
+          git add .github/workflows/generate-student-notebook.yml
+          git commit -m "Remove workflow file from assignment branch"
+          git push origin assignment
 
       - name: Restore main branch and remove 'assignment' cells
         run: |
@@ -117,10 +117,6 @@ jobs:
                           nbformat.write(notebook, f)
           "
 
-      - name: Remove this workflow file from the repo
-        run: |
-          git rm .github/workflows/generate-student-notebook.yml
-
       - name: Commit and push solution version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
@@ -130,3 +126,7 @@ jobs:
           git add .
           git commit -m "Generate solution version of notebooks"
           git push origin solution --force
+          git rm .github/workflows/generate-student-notebook.yml
+          git add .github/workflows/generate-student-notebook.yml
+          git commit -m "Remove workflow file from solution branch"
+          git push origin solution
