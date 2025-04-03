@@ -125,6 +125,6 @@ jobs:
           git commit -m "Generate solution version of notebooks"
           git push origin solution --force
           git rm .github/workflows/generate-student-notebook.yml
-          git add .github/workflows/generate-student-notebook.yml
+          git add .
           git commit -m "Remove workflow file from solution branch"
           git push origin solution
