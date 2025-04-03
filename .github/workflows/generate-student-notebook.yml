@@ -103,7 +103,7 @@ jobs:
 
                       # Raise an error if a solution block was not properly closed
                       if in_solution_block:
-                          raise ValueError("Unclosed '% solution_start' detected in file: " + markdown_file)
+                          raise ValueError("Unclosed % solution_start detected in file: " + markdown_file)
 
                       # Save the modified markdown file
                       with open(markdown_file, "w") as f:
