@@ -80,7 +80,7 @@ jobs:
 
       - name: Commit and push changes assignment version
         env:
-          TOKEN: ${{ secrets.FG_PAT }}
+          TOKEN: ${{ secrets.DUMMYDOCENT_PAT }}
         run: |
           echo "Testing token authentication..."
           git ls-remote https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
@@ -121,7 +121,7 @@ jobs:
 
       - name: Commit and push solution version
         env:
-          TOKEN: ${{ secrets.FG_PAT }}
+          TOKEN: ${{ secrets.DUMMYDOCENT_PAT }}
         run: |
           git checkout -b solution
           git merge origin/main
