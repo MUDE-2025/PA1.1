@@ -1,9 +1,7 @@
 name: Generate assignment and solution versions
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   generate-notebook:
