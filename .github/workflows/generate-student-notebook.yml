@@ -87,9 +87,8 @@ jobs:
           git add .
           git commit -m "Generate assignment version of notebooks"
           git push origin assignment --force
-          ls .github/workflows/generate-student-notebook.yml
           git rm .github/workflows/generate-student-notebook.yml
-          git add .github/workflows/generate-student-notebook.yml
+          git add .
           git commit -m "Remove workflow file from assignment branch"
           git push origin assignment
 
