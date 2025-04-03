@@ -77,6 +77,38 @@ jobs:
                   nbformat.write(notebook, f)
           "
 
+      - name: Remove solution sections from markdown files
+        run: |
+          python -c "
+          import os
+
+          # Walk through all files in the repository
+            for root, _, files in os.walk('.'):
+              for file in files:
+                if file.endswith('.md'):
+                  markdown_file = os.path.join(root, file)
+                  with open(markdown_file, 'r') as f:
+                    lines = f.readlines()
+
+                  # Remove lines between '% solution_start' and '% solution_end'
+                  in_solution_block = False
+                  filtered_lines = []
+                  for line in lines:
+                    if '% solution_start' in line:
+                      in_solution_block = True
+                    elif '% solution_end' in line:
+                      in_solution_block = False
+                    elif not in_solution_block:
+                      filtered_lines.append(line)
+
+                  # Raise an error if a solution block was not properly closed
+                  if in_solution_block:
+                    raise ValueError("Unclosed '% solution_start' detected in file: " + markdown_file)
+
+                  # Save the modified markdown file
+                  with open(markdown_file, 'w') as f:
+                    f.writelines(filtered_lines)
+
       - name: Commit and push changes assignment version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
@@ -86,7 +118,7 @@ jobs:
           git checkout -b assignment
           git merge origin/main
           git add .
-          git commit -m "Generate assignment version of notebooks"
+          git commit -m "Generate assignment version"
           git push origin assignment --force
           git rm .github/workflows/generate-student-notebook.yml
           git add .
@@ -140,6 +172,27 @@ jobs:
                   nbformat.write(notebook, f)
           "
 
+      - name: Remove commented lines from markdown files
+        run: |
+          python -c "
+          import os
+
+          # Walk through all files in the repository
+          for root, _, files in os.walk('.'):
+            for file in files:
+              if file.endswith('.md'):
+                markdown_file = os.path.join(root, file)
+                with open(markdown_file, 'r') as f:
+                  lines = f.readlines()
+
+                # Remove lines that start with a comment symbol
+                filtered_lines = [line for line in lines if not line.strip().startswith('% solution')]
+
+                # Save the modified markdown file
+                with open(markdown_file, 'w') as f:
+                  f.writelines(filtered_lines)
+          "
+
       - name: Commit and push solution version
         env:
           TOKEN: ${{ secrets.FG_MUDE_2025_token }}
@@ -147,7 +200,7 @@ jobs:
           git checkout -b solution
           git merge origin/main
           git add .
-          git commit -m "Generate solution version of notebooks"
+          git commit -m "Generate solution version"
           git push origin solution --force
           git rm .github/workflows/generate-student-notebook.yml
           git add .
