@@ -27,7 +27,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-            pip install -r requirements.txt
+          original_line=$(grep '^python$' requirements.txt || true)
+          sed -i '/^python$/d' requirements.txt
+          pip install -r requirements.txt
+          if [ -n "$original_line" ]; then
+            echo "$original_line" >> requirements.txt
+          fi
 
       - name: Remove solution cells
         run: |
