@@ -29,6 +29,8 @@ jobs:
           python -m pip install --upgrade pip
           original_line=$(grep '^python$' requirements.txt || true)
           sed -i '/^python$/d' requirements.txt
+          echo "Debugging requirements.txt:"
+          cat requirements.txt
           pip install -r requirements.txt
           if [ -n "$original_line" ]; then
             echo "$original_line" >> requirements.txt
