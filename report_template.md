@@ -6,7 +6,7 @@
 
 *Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
 
-# Part 1
+## Part 1
 
 **1.1 <question>**
 
