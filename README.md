@@ -6,21 +6,25 @@
 
 This assignment doesn't have to be delivered.
 
-You can access this assignment on 
+You can access this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.1/README.html and download individual pages to your computer.
+
+Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_1.html
 
 In this assignment you'll:
-1. Install [TU Delft's conda software package](./1_install_conda.md)
-2. Install [VS Code](./2_install_VScode.md).
-3. [Activate your MUDE environment and check installation by executing a very simple python script in a jupyter notebook from within VS Code](./3_test.ipynb).
+1. [Enable the option to show hidden files on your computer](./1_enable_hidden_files.md)
+2. [Install TU Delft's conda software package](./2_install_conda.md)
+3. [Install VS Code](./3_install_VS_code.md).
+4. [Setup `mude-base` environment](./4_install_mude_environment.md)
+5. [Execute a very simple python script](./5_test.ipynb).
+6. [Create GitHub account and apply for the GitHub student pack](./6_github_copilot.md)
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
 For the programming fundamentals you'll make an assignment on:
-1. the basics of a Jupyter notebook
-2. the basics of python
-3. a proper folder system
 
-If you struggle with one of the topics from the programming fundamentals, you're advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
+7. The basics of a Jupyter notebook
+8. The basics of python
 
+If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
 
 > Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
