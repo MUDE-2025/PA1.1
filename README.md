@@ -20,7 +20,7 @@ In this assignment you'll:
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
-For the programming fundamentals you'll make an assignment on:
+For the fundamental programming concepts you'll make an assignment on:
 
 7. The basics of a Jupyter notebook
 8. The basics of python
