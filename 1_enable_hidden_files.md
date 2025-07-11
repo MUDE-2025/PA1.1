@@ -1,4 +1,4 @@
-# Install TU Delft conda
+# Show hidden files
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
@@ -32,8 +32,7 @@ Then navigate to the proper location in the "View" tab of the Folder Options win
 
 ## Task 1.1.alternative Change Settings via a CLI
 
-
-If you would like to view hidden files and folders via the command line, this is illustrated with the simple commands here (review the {ref}`CLI page <cli>` for an overview of the different systems):
+If you would like to view hidden files and folders via the command line, this is illustrated with the simple commands here:
 
 ### Unix-type CLI
 The option `a` lists all files (including hidden ones) and the `l` presents the output in a nicely formatted list (one item per row):

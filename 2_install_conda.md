@@ -29,7 +29,7 @@ A few tips:
 
 This steps is only required for windows-users who didn't add Anaconda to their path.
 
-- Find the path to you r conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
+- Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
 
 ```
 C:\Users\<your user name>\AppData\Local\tudelft-conda\scripts
