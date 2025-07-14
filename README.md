@@ -20,11 +20,11 @@ In this assignment you'll:
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
-For the fundamental programming concepts you can an assignment on:
+For the fundamental programming concepts there are two exercises:
 
 7. The basics of a Jupyter notebook
 8. The basics of python
 
-These assignments on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
+These exercises on fundamental programming concepts are not obligatory. If you struggle with one of the topics from the programming fundamentals, you're strongly advised to go through the linked reference materials by yourself. During the programming tutorial on Tuesday these steps will be demonstrated too.
 
 > Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
