@@ -6,7 +6,7 @@
 
 This assignment doesn't have to be delivered.
 
-You can access this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.1/README.html and download individual pages to your computer.
+You can access this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.1/README.html. Pages can be downloaded as `.md` and `.ipynb` files to your computer.
 
 Before you can start this assignment, read the theory pages in the book: https://mude.citg.tudelft.nl/book/2025/programming/week_1_1.html
 
