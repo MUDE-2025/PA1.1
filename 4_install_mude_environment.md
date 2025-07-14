@@ -4,6 +4,8 @@
 
 *Written by: Tom van Woudenberg*
 
+The TU Delft conda distribution includes a base environment which should contain everything you will encounter at TU Delft. However, it's good practice to create a separate environment for your different project (like MUDE). Therefore, we'll create a `mude-base` environment.
+
 ## Task 3.1 Download `environment.yml`
 
 Download [environment.yml here](./environment.yml)
