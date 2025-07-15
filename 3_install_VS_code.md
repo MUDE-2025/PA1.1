@@ -12,7 +12,7 @@ Download and install Visual Studio Code from https://code.visualstudio.com/Downl
 
 ## Task 3.2 Install extension
 
-Install at least:
+Install at least in the 'Extensions' tabs in VS code (`Ctrl` + `Shift` + `X`):
 
 - Python extension: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 - Jupyter extension: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
