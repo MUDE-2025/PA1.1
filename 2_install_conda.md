@@ -27,7 +27,7 @@ A few tips:
 
 ## Task 2.2.additional Add conda to path
 
-This steps is only required for windows-users who didn't add Anaconda to their path.
+This steps is only required for windows-users who didn't add Anaconda to their path during task 2.2.
 
 1. Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
 
