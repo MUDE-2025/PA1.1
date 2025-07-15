@@ -12,7 +12,7 @@ We recommend you completely remove older versions of the Anaconda/Miniconda soft
 
 ## Task 2.2 Install TU Delft stand-alone installer
 
-Open the TU Delft stand-alone installer from [this link](TBD) and follow the steps. For windows-users: make sure you select 'Add conda to my PATH environment variable' (this will allow you to use conda from any terminal). If you don't have that option, continue with step *Task 2.2.additional* after this step.
+Open the TU Delft stand-alone installer from [this link](TBD) and follow the steps with recommended options. For windows-users: make sure you select 'Add conda to my PATH environment variable' (this will allow you to use conda from any terminal). If you don't have that option, continue with step *Task 2.2.additional* after this step.
 
 A few tips:
 
