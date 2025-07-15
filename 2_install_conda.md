@@ -29,7 +29,7 @@ A few tips:
 
 This steps is only required for windows-users who didn't add Anaconda to their path.
 
-- Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
+1. Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
 
 ```
 C:\Users\<your user name>\AppData\Local\tudelft-conda\scripts
@@ -53,12 +53,12 @@ or
 C:\Users\<your user name>\tudelft-conda\scripts\conda.exe
 ```
 
-- Navigate to the _Edit environment variables for your account_ settings.
+2. Navigate to the _Edit environment variables for your account_ settings.
 The easiest way to find the appropriate setting window is by typing the first letters of "environment" in the Windows toolbar. The first three letters are usually enough to cause several relevant options to appear; select _Edit environment variables for your account_ and see the figure below for an illustration:
 
 ![Search for environment variable settings](https://files.mude.citg.tudelft.nl/environment_var_search.png)
 
-- Set the variable.
+3. Set the variable.
 As a general rule you should only adjust the `PATH` variable for the _user_, **not** the _system._ Failing to do this is a common mistake and leads to frustration when installing applications like Anaconda and Miniconda.
 To set the right variable, pay particular attention to the descriptions provided in the environment variable window, as it is easy to miss; the right location is illustrated clearly in the following figure:
 
@@ -76,18 +76,18 @@ The following figure illustrates exactly where you should paste your desired fol
 
 ![How to add a folder (directory) location to the `PATH` variable using the "New" button.](https://files.mude.citg.tudelft.nl/environment_var_PATH_new.png)
 
-- Restart your computer
+4. Restart your computer
 
 > This task uses content from https://teachbooks.io/learn-programming/install/common/env_vars_windows.html by Delft University of Technology, licensed with CC BY 4.0 License.
 
 ## Task 2.3 Check installation
 
-- Open your command prompt
+1. Open your command prompt
   - Windows users: search for `cmd` in the start menu to open the command prompt
   - Mac users: Use `Cmd`+`Spacebar` to open Spotlight Search. Type `Terminal` and press `Return` to open.
   - Linux users: type `Ctrl`+`Alt`+`T` to open a terminal application
-- Type `conda --version`
-- You should get something like: `conda 25.5.1`
+2. Type `conda --version`
+3. You should get something like: `conda 25.5.1`
 
 
 > This task uses content from https://teachbooks.io/learn-programming/install/python/miniconda.html by Delft University of Technology, licensed with CC BY 4.0 License and https://www.anaconda.com/docs/getting-started/anaconda/install#linux
