@@ -1,4 +1,4 @@
-<img width="374" height="291" alt="settings_conda" src="https://github.com/user-attachments/assets/e8549880-6603-43ce-96fe-1bfc06a888d1" /># Install TU Delft conda
+# Install TU Delft conda
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
