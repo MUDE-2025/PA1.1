@@ -1,4 +1,4 @@
-# Install TU Delft conda
+<img width="374" height="291" alt="settings_conda" src="https://github.com/user-attachments/assets/e8549880-6603-43ce-96fe-1bfc06a888d1" /># Install TU Delft conda
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
@@ -13,6 +13,8 @@ We recommend you completely remove older versions of the Anaconda/Miniconda soft
 ## Task 2.2 Install TU Delft stand-alone installer
 
 Open the TU Delft stand-alone installer from [this link](TBD) and follow the steps with recommended options. For windows-users: make sure you select 'Add conda to my PATH environment variable' (this will allow you to use conda from any terminal). If you don't have that option, continue with step *Task 2.2.additional* after this step.
+
+![Add conda to PATH](https://files.mude.citg.tudelft.nl/settings_conda.png)
 
 A few tips:
 
