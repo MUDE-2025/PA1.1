@@ -31,6 +31,8 @@ jobs:
           sed -i '/^python == 3.12$/d' requirements.txt
           pip install -r requirements.txt
           pip install nbformat
+          python -m pip install ipykernel
+          python -m ipykernel install --user --name=python3
           if [ -n "$original_line" ]; then
             echo "$original_line" >> requirements.txt
           fi
