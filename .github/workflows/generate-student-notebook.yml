@@ -30,7 +30,7 @@ jobs:
           original_line=$(grep '^python == 3.12$' requirements.txt || true)
           sed -i '/^python == 3.12$/d' requirements.txt
           pip install -r requirements.txt
-          pip install nbformat nbconvert
+          pip install nbformat
           if [ -n "$original_line" ]; then
             echo "$original_line" >> requirements.txt
           fi
