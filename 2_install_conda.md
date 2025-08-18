@@ -21,7 +21,7 @@ A few tips:
 - For Windows users: To prevent permission errors, do not launch the installer from the Favorites folder.
 - For Windows users: If you encounter issues during installation, temporarily disable your anti-virus software during install, then re-enable it after the installation concludes. If you installed for All Users, uninstall Anaconda and re-install it for Just Me only.
 - For Windows users: The installation directory path cannot contain spaces or Unicode characters. For more information
-- For Windows users: Do not install as Administrator unless admin privileges are required.
+- For Windows users: Do not install as Administrator unless admin privileges are required (i.e. because of the installation path length)
 - For Mac users: If you get the error message “You cannot install Anaconda in this location,” reselect Install for all users of this computer and try again.
 - For Mac users: If you get the error message “This package is incompatible with this version of macOS,” please see [here](https://www.anaconda.com/docs/reference/troubleshooting#%E2%80%9Dthis-package-is-incompatible-with-this-version-of-macos%E2%80%9D-error-when-running-a-pkg-installer-on-osx) for troubleshooting help.
 
