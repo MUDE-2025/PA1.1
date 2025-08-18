@@ -127,11 +127,15 @@ jobs:
           git checkout -b assignment
           git merge origin/main
           git add .
-          git commit -m "Generate assignment version"
-          git rm .github/workflows/generate-student-notebook.yml
-          git add .
-          git commit -m "Remove workflow file from assignment branch"
-          git push origin assignment --force
+          if git diff --cached --quiet; then
+            echo "Warning: assignment version is not different than main."
+          else
+            git commit -m "Generate assignment version"
+            git rm .github/workflows/generate-student-notebook.yml
+            git add .
+            git commit -m "Remove workflow file from assignment branch"
+            git push origin assignment --force
+          fi
 
       - name: Restore main branch and remove 'assignment' cells
         run: |
@@ -208,8 +212,12 @@ jobs:
           git checkout -b solution
           git merge origin/main
           git add .
-          git commit -m "Generate solution version"
-          git rm .github/workflows/generate-student-notebook.yml
-          git add .
-          git commit -m "Remove workflow file from solution branch"
-          git push origin solution --force
+          if git diff --cached --quiet; then
+            echo "Warning: solution version is not different than main."
+          else
+            git commit -m "Generate solution version"
+            git rm .github/workflows/generate-student-notebook.yml
+            git add .
+            git commit -m "Remove workflow file from solution branch"
+            git push origin solution --force
+          fi
