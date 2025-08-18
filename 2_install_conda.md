@@ -2,7 +2,7 @@
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
-*Written by: Tom van Woudenberg*
+*Written by: Tom van Woudenberg, Robert Lanzafame*
 
 TU Delft has an digital exam environment which is used in programming assignments. To make this available for TU Delft computers and your own personal computer, a Conda-based standalone offline installer is shared.
 
