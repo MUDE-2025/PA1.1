@@ -31,7 +31,7 @@ A few tips:
 
 This steps is only required for windows-users who didn't add Anaconda to their path during task 2.2.
 
-1. Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this:
+1. Find the path to your conda installation. The easiest way to do this is to navigate to the folder using the File Explorer, then click in the address bar near the top and copy the text, which should look something like this :
 
 ```
 C:\Users\<your user name>\AppData\Local\tudelft-conda\scripts
@@ -41,6 +41,12 @@ or
 
 ```
 C:\Users\<your user name>\tudelft-conda\scripts
+```
+
+or 
+
+```
+C:\ProgramData\tudelft-conda\scripts
 ```
 
 In this case, the folder (directory) contains the executable files `conda.exe`, which is what makes the command `conda` possible to use on the CLI. Thus, the full path to `conda.exe` is this:
@@ -53,6 +59,12 @@ or
 
 ```
 C:\Users\<your user name>\tudelft-conda\scripts\conda.exe
+```
+
+or 
+
+```
+C:\ProgramData\tudelft-conda\scripts\conda.exe
 ```
 
 2. Navigate to the _Edit environment variables for your account_ settings.
