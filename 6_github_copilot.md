@@ -16,7 +16,7 @@ Create a free GitHub account here: https://github.com/signup. A few notes:
 - You are free to choose any user name you like.
 - Your account is not required to be connected in any way to your student email or NetId. In fact, we recommend using your personal email, as then you will be able to keep your files long after you graduate from TU Delft!
 
-## Task 6.2 Apply for GitHub Student developer pack
+## Task 6.1 Apply for GitHub Student developer pack
 
 Please note that we don't obligate you to sign up for the Student Developer Pack with GitHub as this is not a service provided by TU Delft itself, but by GitHub. However, we think the risk are low as GitHub is owned by Microsoft which is used extensively at TU Delft. Nevertheless, if you don't want to sign up for the student developer pack, you can skip this task and there will be (less good) alternatives offered when treating AI tools.
 
