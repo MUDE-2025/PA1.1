@@ -18,7 +18,7 @@ Create a free GitHub account here: https://github.com/signup. A few notes:
 
 ## Task 6.1 Let us know what your GitHub username is
 
-Please fill in this form https://forms.office.com/e/Q4N1SLEvV7 to let us know your GitHub username. Use you TU Delft student account for this form.
+Please fill in this form https://forms.office.com/e/Q4N1SLEvV7 to let us know your GitHub username. Use your TU Delft student account to log in for this form.
 
 ## Task 6.2 Apply for GitHub Student developer pack
 
