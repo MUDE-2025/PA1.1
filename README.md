@@ -17,7 +17,7 @@ In this assignment you'll:
 4. [Setup `mude-base` environment](./4_install_mude_environment.md)
 5. [Execute a very simple python script](./5_test.ipynb).
 6. [Create GitHub account and apply for the GitHub student pack](./6_github_copilot.md)
-7. [Tell us your Github user name by filling out the form here] (https://forms.office.com/e/8ASvDYPm5W)
+7. [Tell us your Github user name by filling out the form here](https://forms.office.com/e/8ASvDYPm5W)
    
 You'll need to have done this to be able to make the workshop and group assignment.
 
