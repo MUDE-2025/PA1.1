@@ -1,9 +1,5 @@
 # Programming Assignment 1.1: Catch them all
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 This assignment doesn't have to be delivered.
 
 You can access this assignment on https://mude.citg.tudelft.nl/workbook-2025/assignments/PA1.1/README.html. Pages can be downloaded as `.md` and `.ipynb` files to your computer.
@@ -20,4 +16,4 @@ In this assignment you'll:
 
 You'll need to have done this to be able to make the workshop and group assignment.
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

@@ -1,9 +1,5 @@
 # GitHub account and Student Developer Pack
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 We'll extensively use GitHub in this course to teach you how to use git! Therefore, you'll need a GitHub account.
 
 Furthermore,  in a few weeks, we'll dive into how to properly use AI tools for code-development. To do so, it is useful to have access to GitHub Copilot, which is a AI tool (LLM specifically) which integrates very nicely into VS Code. This registration process takes some time, so'll start it this week! More information is available here: https://github.com/education/students
@@ -30,4 +26,4 @@ You'll need to provide documents proving your enrollment, you can do this with t
 
 It needs to contain the year of the enrollment to verify you're currently a student. Futhermore, it needs to be an image, PDFs are not allowed. To apply, go to https://github.com/settings/education/benefits. Under "GitHub Education", click Start an application. Complete the form and submit the application.
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

@@ -1,9 +1,5 @@
 # Install TU Delft conda
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg, Robert Lanzafame*
-
 TU Delft has an digital exam environment which is used in programming assignments. To make this available for TU Delft computers and your own personal computer, a Conda-based standalone offline installer is shared.
 
 ## Task 2.1 Remove older versions of Anaconda/Miniconda
@@ -113,4 +109,4 @@ The following figure illustrates exactly where you should paste your desired fol
 
 > This task uses content from https://teachbooks.io/learn-programming/install/python/miniconda.html by Delft University of Technology, licensed with CC BY 4.0 License and https://www.anaconda.com/docs/getting-started/anaconda/install#linux
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg and Robert Lanzafame, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

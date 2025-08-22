@@ -1,9 +1,5 @@
 # Setup `mude-base` environment
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg*
-
 The TU Delft conda distribution includes a base environment which should contain everything you will encounter at TU Delft. However, it's good practice to create a separate environment for your different project (like MUDE). Therefore, we'll create a `mude-base` environment.
 
 ## Task 3.1 Download `environment.yml`
@@ -43,3 +39,5 @@ Executing transaction: done
 ```
 
 > Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+
+> By Tom van Woudenberg, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

@@ -1,9 +1,5 @@
 # Show hidden files
 
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: Tom van Woudenberg and Robert Lanzafame*
-
 By default some of the folders (directories) and files are hidden on your computer to protect you against making changes that causes problems. You will need to see some of these files and folders to properly set up and use software.
 
 You can choose to change the setting via a GUI (Task 1.1) or via the CLI (Task 1.1.alternative)
@@ -55,4 +51,4 @@ dir /a:d
 
 > This page uses content from https://teachbooks.io/learn-programming/install/common/hidden.html by Delft University of Technology, licensed with CC BY 4.0 License.
 
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
+> By Tom van Woudenberg and Robert Lanzafame, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
