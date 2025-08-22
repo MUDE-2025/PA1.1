@@ -1,4 +1,4 @@
-# Programming Assignment 1.1 Getting started
+# Programming Assignment 1.1: Catch them all
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
