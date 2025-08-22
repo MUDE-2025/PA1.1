@@ -51,4 +51,4 @@ dir /a:d
 
 > This page uses content from https://teachbooks.io/learn-programming/install/common/hidden.html by Delft University of Technology, licensed with CC BY 4.0 License.
 
-> By Tom van Woudenberg and Robert Lanzafame, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).

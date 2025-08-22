@@ -26,4 +26,4 @@ You'll need to provide documents proving your enrollment, you can do this with t
 
 It needs to contain the year of the enrollment to verify you're currently a student. Futhermore, it needs to be an image, PDFs are not allowed. To apply, go to https://github.com/settings/education/benefits. Under "GitHub Education", click Start an application. Complete the form and submit the application.
 
-> By Tom van Woudenberg, [CEGM1000 MUDE](http://mude.citg.tudelft.nl/), Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg, Delft University of Technology. This work is licensed under a CC BY 4.0 License, more information about referencing can be found [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
