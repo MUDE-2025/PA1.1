@@ -1,14 +1,14 @@
-# GitHub Student Developer Pack
+# GitHub account and Student Developer Pack
 
 *[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
 
 *Written by: Tom van Woudenberg*
 
-In a few weeks, we'll dive into how to properly use AI tools for code-development. To do so, it is useful to have access to GitHub Copilot, which is a AI tool (LLM specifically) which integrates very nicely into VS Code. This registration process takes some time, so'll start it this week! More information is available here: https://github.com/education/students
+We'll extensively use GitHub in this course to teach you how to use git! Therefore, you'll need a GitHub account.
 
-Furthermore, we'll extensively use GitHub in this course to teach you how to use git! Therefore, you'll need a GitHub account.
+Furthermore,  in a few weeks, we'll dive into how to properly use AI tools for code-development. To do so, it is useful to have access to GitHub Copilot, which is a AI tool (LLM specifically) which integrates very nicely into VS Code. This registration process takes some time, so'll start it this week! More information is available here: https://github.com/education/students
 
-## Task 6.0 Create GitHub account
+## Task 6.1 Create GitHub account
 
 Create a free GitHub account here: https://github.com/signup. A few notes:
 
@@ -16,11 +16,11 @@ Create a free GitHub account here: https://github.com/signup. A few notes:
 - You are free to choose any user name you like.
 - Your account is not required to be connected in any way to your student email or NetId. In fact, we recommend using your personal email, as then you will be able to keep your files long after you graduate from TU Delft!
 
-## Task 6.1 Let us know what your GitHub username is
+## Task 6.2 Let us know what your GitHub username is
 
 Please fill in this form https://forms.office.com/e/Q4N1SLEvV7 to let us know your GitHub username. Use your TU Delft student account to log in for this form.
 
-## Task 6.2 Apply for GitHub Student developer pack
+## Task 6.3 Apply for GitHub Student developer pack
 
 Please note that we don't obligate you to sign up for the Student Developer Pack with GitHub as this is not a service provided by TU Delft itself, but by GitHub. However, we think the risk are low as GitHub is owned by Microsoft which is used extensively at TU Delft. Nevertheless, if you don't want to sign up for the student developer pack, you can skip this task and there will be (less good) alternatives offered when treating AI tools.
 
