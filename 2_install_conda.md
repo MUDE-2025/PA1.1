@@ -109,4 +109,4 @@ The following figure illustrates exactly where you should paste your desired fol
 
 > This task uses content from https://teachbooks.io/learn-programming/install/python/miniconda.html by Delft University of Technology, licensed with CC BY 4.0 License and https://www.anaconda.com/docs/getting-started/anaconda/install#linux
 
-> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0 License, more information about referencing [on the Credits and License page](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
