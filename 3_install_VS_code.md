@@ -13,4 +13,11 @@ Install at least in the 'Extensions' tabs in VS code (`Ctrl` + `Shift` + `X`):
 - Python extension: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 - Jupyter extension: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter
 
-> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+## Task 3.3 Activate Auto-Save
+
+By default VS Code does not save your work, you must do it manually (e.g., CTRL+S, or COMMAND+S). Unsaved files are recognizable in VS Code with a colored circle visible in the tab with the file name at the top of the window (try making a change and saving the file to see the circle disappear). You can enable automatic saving easily, which can save headaches later on. To do this, open the command palette (under toolbar "View"), then type "auto save" and select "toggle Auto Save."
+
+_Side note: the Command Palette is very useful for searching for and changing setting in VS Code._
+
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> 
