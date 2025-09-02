@@ -18,7 +18,7 @@ Please fill in this form https://forms.office.com/e/Q4N1SLEvV7 to let us know yo
 
 ## Task 6.3 Apply for GitHub Student developer pack
 
-Please note that we don't obligate you to sign up for the Student Developer Pack with GitHub as this is not a service provided by TU Delft itself, but by GitHub. However, we think the risk are low as GitHub is owned by Microsoft which is used extensively at TU Delft. Nevertheless, if you don't want to sign up for the student developer pack, you can skip this task and there will be (less good) alternatives offered when treating AI tools.
+Please note that we don't obligate you to sign up for the Student Developer Pack with GitHub as this is not a service provided by TU Delft itself, but by GitHub. However, we think the risks are low as GitHub is owned by Microsoft which is used extensively at TU Delft. Nevertheless, if you don't want to sign up for the student developer pack, you can skip this task and there will be (less good) alternatives offered when treating AI tools.
 
 You'll need to provide documents proving your enrollment, you can do this with the proof of enrollment you received from TU Delft or the digital version of your student card in your My TUDelft app, like the example below (but of course submit your own one without any black marks):
 
