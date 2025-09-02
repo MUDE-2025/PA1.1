@@ -17,4 +17,4 @@ You'll need to have done this to be able to make the workshop and group assignme
 You pass this PA if you:
 - submitted the form in exercise 6 (please note that this is manually checked).
 
-> By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
+> By Tom van Woudenberg and Robert Lanzafame, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
